@@ -1,0 +1,200 @@
+h1 {
+  font-family: "Cinzel";
+}
+h2 {
+  color: red;
+  font-family: "Dancing Script";
+}
+h4 {
+  text-align: center;
+  font-family: "Cinzel";
+}
+
+.first-page {
+  position: relative;
+  padding: 10%;
+  background-image: url("images/main_page2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background-color: rgba(250, 235, 215, 0.833);
+  z-index: 1;
+  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -ms-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+  background-color: antiquewhite;
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 13px 10% 0% 0%;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-family: "Cinzel";
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.header {
+  background-color: white;
+  opacity: 0.8;
+  padding: 8%;
+  border-radius: 15%;
+  text-align: center;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu_title {
+  padding: 20px;
+}
+.item {
+  padding: 7%;
+  border-radius: 10%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0px;
+}
+
+.item img {
+  height: 150px;
+  width: 150px;
+}
+.made-for-you {
+  padding: 5%;
+}
+
+.made_title {
+  text-align: center;
+  padding: 25px;
+}
+
+.made-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.image-text {
+  position: relative;
+  margin: auto;
+}
+
+.custom-cakes {
+  border-radius: 15%;
+  height: 400px;
+  width: 400px;
+  overflow: hidden; /* Ensure the image stays within the rounded border */
+}
+
+.custom-cakes img {
+  object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
+  height: 100%;
+  width: 100%;
+}
+
+.image-h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text horizontally and vertically */
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.who-we-are {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+  align-content: space-between;
+  padding: 5% 10% 5% 10%;
+  border-radius: 15px;
+}
+.who-title {
+  color: rgb(187, 64, 84);
+}
+.logo {
+  padding-top: 5%;
+}
+.content {
+  padding: 5% 20% 0 20%;
+  text-align: center;
+}
+.gallery {
+  background-color: antiquewhite;
+  padding: 10%;
+  margin: 10%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+.gallery-title {
+  text-align: center;
+  color: rgb(187, 64, 84);
+}
+
+.copyright {
+  background-color: antiquewhite;
+  font-family: "Times new roman";
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+}
+
